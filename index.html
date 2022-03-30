@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>youtube</title>
+  </head>
+  <body>
+    <nav id="navbar">
+     
+        <div class="navBarTopPosition_fixed">
+
+          <div class="navbarTop">
+            <div class="bar-logo">
+              <div class="bar">
+                <i class="fa-solid fa-bars" onclick="onClick()" )></i>
+              </div>
+              <div class="logo">
+                <a href="#"><img src="logoyoutube.png" alt="" href="#" /></a>
+              </div>
+            </div>
+
+            <div class="navbarInput">
+              <input class="search" type="text" placeholder=" ค้นหา" />
+              <button class="buttonSearch">
+                <i class="fa-solid fa-magnifying-glass"></i>
+              </button>
+              <button class="buttonMic">
+                <i class="fa-solid fa-microphone"></i>
+              </button>
+            </div>
+
+            <div class="navbarIcon">
+              <ul class="navbarIcon_ul">
+                <li><i class="fa-solid fa-video"></i></li>
+                <li><i class="fa-brands fa-buromobelexperte"></i></li>
+                <li><i class="fa-solid fa-bell"></i></li>
+                <li onclick="onClickEmail()" class="iconEmail">
+                  <i class="fa-solid fa-face-angry"></i>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+          </div>
+        </div>
+    </nav>
+
+    <nav class="navbarBottom">
+        <ul class="navbarBottom_ul">
+          <li><button>ทั้งหมด</button></li>
+          <li><button>เพลง</button></li>
+          <li><button>มิกซ์</button></li>
+          <li><button>สด</button></li>
+          <li><button>รายการอาหาร</button></li>
+          <li><button>แอนิเมชั่น</button></li>
+          <li><button>เคล็ดลับความงาม</button></li>
+          <li><button>เพลงแร็ป</button></li>
+          <li><button>เกม</button></li>
+          <li><button>ฟุตบอล</button></li>
+          <li><button>ฟิตเนส</button></li>
+          <li><button>เกมแอ็กชันผจญภัย</button></li>
+        </ul>
+    </nav>
+
+    <div class="toggleBar">
+      <div class="container_toggle">
+        <div class="longBar">
+          <ul class="toggleBar_ul">
+            <li>
+              <a href="#"><i class="fa-solid fa-house"></i>หน้าแรก</a>
+            </li>
+            <li>
+              <a href="#"><i class="fa-solid fa-house"></i>สำรวจ</a>
+            </li>
+            <li>
+              <a href="#"><i class="fa-solid fa-house"></i>shorts</a>
+            </li>
+            <li>
+              <a href="#"><i class="fa-solid fa-house"></i>การติดตาม</a>
+            </li>
+          </ul>
+          <div class="line"></div>
+          <ul class="toggleBar_ul">
+            <li>
+              <a href="#"><i class="fa-solid fa-house"></i>คลังวิดีโอ</a>
+            </li>
+            <li>
+              <a href="#"><i class="fa-solid fa-house"></i>ประวัติการเข้าชม</a>
+            </li>
+            <li>
+              <a href="#"><i class="fa-solid fa-house"></i>ดูภายหลัง</a>
+            </li>
+            <li>
+              <a href="#"><i class="fa-solid fa-house"></i>วิดีโอที่ชอบ</a>
+            </li>
+          </ul>
+          <div class="line"></div>
+          <ul class="toggleBar_ul">
+            <li> <p>การติดตาม</p></li>
+            <li>
+              <a href="#"><i class="fa-solid fa-house"></i>เพลง</a>
+            </li>
+            <li>
+              <a href="#"><i class="fa-solid fa-house"></i>กีฬา</a>
+            </li>
+            <li>
+              <a href="#"><i class="fa-solid fa-house"></i>เกม</a>
+            </li>
+            <li>
+              <a href="#"><i class="fa-solid fa-house"></i>ข่าวสาร</a>
+            </li>
+          </ul>
+          <div class="line"></div>
+          <ul class="toggleBar_ul">
+             <li><p>เพิ่มเติมจาก YOUTUBE</p></li>
+            <li>
+              <a href="#"><i class="fa-solid fa-house"></i>YouTube Premium</a>
+            </li>
+            <li>
+              <a href="#"><i class="fa-solid fa-house"></i>เกม</a>
+            </li>
+            <li>
+              <a href="#"><i class="fa-solid fa-house"></i>สด</a>
+            </li>
+            <li>
+              <a href="#"><i class="fa-solid fa-house"></i>กีฬา</a>
+            </li>
+          </ul>
+          <div class="line"></div>
+          <ul class="toggleBar_ul">
+            <li>
+              <a href="#"><i class="fa-solid fa-house"></i>การตั้งค่า</a>
+            </li>
+            <li>
+              <a href="#"><i class="fa-solid fa-house"></i>ประวัติรายงาน</a>
+            </li>
+            <li>
+              <a href="#"><i class="fa-solid fa-house"></i>ความช่วยเหลือ</a>
+            </li>
+            <li>
+              <a href="#"><i class="fa-solid fa-house"></i>ส่งความคิดเห็น</a>
+            </li>
+          </ul>
+          <div class="line"></div>
+          <div class="footerToggleBar">
+            <div class="footerToggleBar_top">
+              <a href="#">เกี่ยวกับ</a>
+              <a href="#">สื่อ</a>
+              <a href="#">ลิขสิทธิ์</a>
+              <a href="#">ติดต่อเรา</a><br />
+              <a href="#">ครีเอเตอร์</a>
+              <a href="#">โฆษณา</a><br />
+              <a href="#">นักพัฒนาซอฟต์แวร์</a>
+            </div>
+            <div class="footerToggleBar_bottom">
+              <a href="#">ข้อกำหนด</a>
+              <a href="#">ความเป็นส่วนตัว</a><br />
+              <a href="#">นโยบายและความปลอดภัย</a><br />
+              <a href="#">วิธีการทำงานของ YouTube</a><br />
+              <a href="#">ทดลองใช้ฟีเจอร์ใหม่</a>
+            </div>
+            <div class="footerLast"><p>© 2022 Google LLC</p></div>
+          </div>
+        </div>
+      </div>
+      <div class="longBar hideBar">
+        <ul class="shortBar_ul">
+          <li>
+            <a href="#"><i class="fa-solid fa-house"></i></a>หน้าแรก
+          </li>
+          <li>
+            <a href="#"><i class="fa-solid fa-house"></i></a>สำรวจ
+          </li>
+          <li>
+            <a href="#"><i class="fa-solid fa-house"></i></a>shorts
+          </li>
+          <li>
+            <a href="#"><i class="fa-solid fa-house"></i></a>การติดตาม
+          </li>
+          <li>
+            <a href="#"><i class="fa-solid fa-house"></i></a>คลังวิดีโอ
+          </li>
+        </ul>
+      </div>
+    </div> 
+<section class="video">
+  <div class="container_video" id="xxx">
+    <div class="grid_video">
+
+      <div class="video_youtube">
+      <ul>
+        <li><img src="Hero.jpg" alt=""></li>
+        <li><a href="#"> <i class="fa-solid fa-face-angry"></i></a>Lorem ipsum dolor sit amet.</li>
+        <li><a href="#">link name</a></li>
+        <li><p>การดู</p></li>
+      </ul>
+    </div>
+      <div class="video_youtube">
+      <ul>
+        <li><img src="Hero.jpg" alt=""></li>
+        <li><a href="#"> <i class="fa-solid fa-face-angry"></i></a>Lorem ipsum dolor sit amet.</li>
+        <li><a href="#">link name</a></li>
+        <li><p>การดู</p></li>
+      </ul>
+    </div>
+      <div class="video_youtube">
+      <ul>
+        <li><img src="Hero.jpg" alt=""></li>
+        <li><a href="#"> <i class="fa-solid fa-face-angry"></i></a>Lorem ipsum dolor sit amet.</li>
+        <li><a href="#">link name</a></li>
+        <li><p>การดู</p></li>
+      </ul>
+    </div>
+      <div class="video_youtube">
+      <ul>
+        <li><img src="Hero.jpg" alt=""></li>
+        <li><a href="#"> <i class="fa-solid fa-face-angry"></i></a>Lorem ipsum dolor sit amet.</li>
+        <li><a href="#">link name</a></li>
+        <li><p>การดู</p></li>
+      </ul>
+    </div>
+      <div class="video_youtube">
+      <ul>
+        <li><img src="Hero.jpg" alt=""></li>
+        <li><a href="#"> <i class="fa-solid fa-face-angry"></i></a>Lorem ipsum dolor sit amet.</li>
+        <li><a href="#">link name</a></li>
+        <li><p>การดู</p></li>
+      </ul>
+    </div>
+      <div class="video_youtube">
+      <ul>
+        <li><img src="Hero.jpg" alt=""></li>
+        <li><a href="#"> <i class="fa-solid fa-face-angry"></i></a>Lorem ipsum dolor sit amet.</li>
+        <li><a href="#">link name</a></li>
+        <li><p>การดู</p></li>
+      </ul>
+    </div>
+      <div class="video_youtube">
+      <ul>
+        <li><img src="Hero.jpg" alt=""></li>
+        <li><a href="#"> <i class="fa-solid fa-face-angry"></i></a>Lorem ipsum dolor sit amet.</li>
+        <li><a href="#">link name</a></li>
+        <li><p>การดู</p></li>
+      </ul>
+    </div>
+      <div class="video_youtube">
+      <ul>
+        <li><img src="Hero.jpg" alt=""></li>
+        <li><a href="#"> <i class="fa-solid fa-face-angry"></i></a>Lorem ipsum dolor sit amet.</li>
+        <li><a href="#">link name</a></li>
+        <li><p>การดู</p></li>
+      </ul>
+    </div>
+      <div class="video_youtube">
+      <ul>
+        <li><img src="Hero.jpg" alt=""></li>
+        <li><a href="#"> <i class="fa-solid fa-face-angry"></i></a>Lorem ipsum dolor sit amet.</li>
+        <li><a href="#">link name</a></li>
+        <li><p>การดู</p></li>
+      </ul>
+    </div>
+      <div class="video_youtube">
+      <ul>
+        <li><img src="Hero.jpg" alt=""></li>
+        <li><a href="#"> <i class="fa-solid fa-face-angry"></i></a>Lorem ipsum dolor sit amet.</li>
+        <li><a href="#">link name</a></li>
+        <li><p>การดู</p></li>
+      </ul>
+    </div>
+      <div class="video_youtube">
+      <ul>
+        <li><img src="Hero.jpg" alt=""></li>
+        <li><a href="#"> <i class="fa-solid fa-face-angry"></i></a>Lorem ipsum dolor sit amet.</li>
+        <li><a href="#">link name</a></li>
+        <li><p>การดู</p></li>
+      </ul>
+    </div>
+      <div class="video_youtube">
+      <ul>
+        <li><img src="Hero.jpg" alt=""></li>
+        <li><a href="#"> <i class="fa-solid fa-face-angry"></i></a>Lorem ipsum dolor sit amet.</li>
+        <li><a href="#">link name</a></li>
+        <li><p>การดู</p></li>
+      </ul>
+    </div>
+      <div class="video_youtube">
+      <ul>
+        <li><img src="Hero.jpg" alt=""></li>
+        <li><a href="#"> <i class="fa-solid fa-face-angry"></i></a>Lorem ipsum dolor sit amet.</li>
+        <li><a href="#">link name</a></li>
+        <li><p>การดู</p></li>
+      </ul>
+    </div>
+      <div class="video_youtube">
+      <ul>
+        <li><img src="Hero.jpg" alt=""></li>
+        <li><a href="#"> <i class="fa-solid fa-face-angry"></i></a>Lorem ipsum dolor sit amet.</li>
+        <li><a href="#">link name</a></li>
+        <li><p>การดู</p></li>
+      </ul>
+    </div>
+      <div class="video_youtube">
+      <ul>
+        <li><img src="Hero.jpg" alt=""></li>
+        <li><a href="#"> <i class="fa-solid fa-face-angry"></i></a>Lorem ipsum dolor sit amet.</li>
+        <li><a href="#">link name</a></li>
+        <li><p>การดู</p></li>
+      </ul>
+    </div>
+      <div class="video_youtube">
+      <ul>
+        <li><img src="Hero.jpg" alt=""></li>
+        <li><a href="#"> <i class="fa-solid fa-face-angry"></i></a>Lorem ipsum dolor sit amet.</li>
+        <li><a href="#">link name</a></li>
+        <li><p>การดู</p></li>
+      </ul>
+    </div>
+    <div class="toggle_email">
+      <div class="toggle_email_container">
+        <ul  class="contentEmail">
+          <li><i class="fa-solid fa-face-angry"></i>Chakorn Chawarattanawong</li>
+          <li>chakornccw@gmail</li>
+          <li>จัดการบัญชี Google</li>
+          <li>สร้างช่อง</li>
+          <li>การซื้อและการเป็นสมาชิก</li>
+          <li>Youtune Studio</li>
+          <li>สลับบัญชี</li>
+          <li>ออกจากระบบ</li>
+          <li>ธีมของแอป:ธีมของอุปกรณ์</li>
+          <li>ภาษา:ไทย</li>
+          <li>ประเทศ: ประเทศไทย</li>
+          <li>การตั้งค่า</li>
+          <li>ข้อมูลของคุณใน Youtube</li>
+          <li>ความช่วยเหลือ</li>
+          <li>ส่งความคิดเห็น</li>
+          <li>แป้นพิมพ์ลัด</li>
+          <li>โหลดที่จำกัด: ปิด</li>
+        </ul>
+    </div>
+  </div>
+
+</section>
+    <script src="script.js"></script>
+  </body>
+</html>

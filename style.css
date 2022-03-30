@@ -1,0 +1,301 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&family=Prompt:wght@300;400;500;600&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Prompt", sans-serif;
+}
+
+.container_toggle {
+  padding: 8px 0 0 20px;
+  background: #fff;
+}
+
+.line {
+  border-bottom: 1px solid #c6c6c6;
+}
+.navbarTop {
+  position: fixed;
+  padding-top: 8px;
+  top: 0px;
+  height: 50px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  background: #fff;
+}
+.bar-logo {
+  display: flex;
+  margin-top: 5px;
+}
+.bar {
+  font-size: 20px;
+  padding: 1px 20px 0 8px;
+  cursor: pointer;
+}
+
+/*************** navbarTop left ***************/
+
+.navbarInput {
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+
+.search {
+  width: 500px;
+  height: 40px;
+  font-size: 17px;
+  border: 1px solid #c6c6c6;
+}
+.buttonSearch {
+  height: 40px;
+  width: 70px;
+  font-size: 20px;
+  border: 1px solid #c6c6c6;
+  cursor: pointer;
+}
+.buttonSearch:hover {
+  background: #f8f8f8;
+}
+.buttonMic {
+  width: 45px;
+  margin-left: 5px;
+  font-size: 20px;
+  height: 40px;
+  border: 1px solid #f9f9f9;
+  background: #f9f9f9;
+  border-radius: 100%;
+  font-weight: 1px;
+  cursor: pointer;
+}
+
+/************ navbarInput center ****************/
+.navbarIcon {
+  padding-top: 7px;
+  width: 200px;
+  height: auto;
+}
+ul.navbarIcon_ul {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  font-size: 20px;
+  align-items: center;
+}
+ul.navbarIcon_ul li i {
+  display: inline-block;
+  margin-right: 10px;
+  cursor: pointer;
+}
+ul.navbarIcon_ul li.iconEmail {
+  margin-left: 15px;
+}
+/************* narbarTop right ************/
+.toggle_eamil_container {
+    padding: 0 10px;
+}
+.contentEmail{
+ position: absolute;
+ list-style: none;
+ top: 50px;
+ right: 40px;
+ z-index: 1;
+ background: #fff;
+}
+.isOpenEmail {
+    display: none;
+}
+
+/* ************** bar Email****************/
+.navbarBottom {
+  width: 100%;
+  height: 60px;
+  position: fixed;
+  top: 50px;
+  padding: 0 170px;
+  border-top: 1px solid #e5e5e5;
+  border-bottom: 1px solid #e5e5e5;
+  z-index: 1;
+  background: #fff;
+  overflow: hidden;
+}
+.navbarBottom_ul {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  justify-content: space-around;
+  
+  
+}
+ul.navbarBottom_ul li button {
+  margin: 12px;
+  margin-left: 0;
+  border-radius: 25px;
+  padding: 5px 15px;
+  border: 1px solid #cecece;
+  font-size: 13px;
+  cursor: pointer;
+  
+}
+ul.navbarBottom_ul li:nth-child(1) {
+  padding-left: 110px;
+}
+
+ul.navbarBottom_ul li button:hover {
+  background: #cecece;
+}
+/****************** end navbarBottom ********************/
+.toggleBar {
+  width: 250px;
+  top: 58px;
+  bottom: 0;
+  background: #fff;
+  position: fixed;
+  overflow-y: auto;
+  z-index: 1;
+}
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+   border-radius: 20px;
+    background: #999; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
+.isOpen {
+  width: 75px;
+}
+.hideBar {
+  display: none;
+}
+.shortBar_ul li {
+  font-size: 10px;
+  text-align: center;
+  padding: 10px 0;
+}
+.shortBar_ul li a {
+  display: block;
+  text-align: center;
+  color: #333;
+  font-size: 18px;
+}
+/* ****************ShortBar******************* */
+ul.toggleBar_ul li {
+  padding: 10px 5px;
+  list-style: none;
+  cursor: pointer;
+}
+ul.toggleBar_ul li a {
+  width: 190px;
+  text-decoration: none;
+  color: #333;
+}
+ul.toggleBar_ul li a i {
+  margin-right: 20px;
+}
+ul.toggleBar_ul_p li {
+  padding: 5px 5px;
+  list-style: none;
+  cursor: pointer;
+}
+ul.toggleBar_ul_p li a {
+  width: 190px;
+  text-decoration: none;
+  color: #333;
+}
+ul.toggleBar_ul_p li a i {
+  margin-right: 20px;
+}
+ul.toggleBar_ul li:nth-child(1) {
+  margin-top: 5px;
+}
+
+ul.toggleBar_ul li:nth-child(5) {
+  margin-bottom: 20px;
+}
+ul.toggleBar_ul_p p {
+  padding: 10px 10px;
+}
+ul.toggleBar_ul li:hover {
+  background: #c6c6c6;
+}
+ul.toggleBar_ul_p li:hover {
+  background: #c6c6c6;
+}
+.footerToggleBar a {
+  text-decoration: none;
+  color: #333;
+}
+.footerToggleBar_top {
+  margin: 10px 0;
+
+  font-size: 12px;
+}
+.footerToggleBar_bottom {
+  margin-bottom: 10px;
+  font-size: 12px;
+}
+.footerLast {
+  color: #cecece;
+  font-size: 12px;
+  padding: 0 10px 10px 0px;
+}
+/* ***************** end footer Toggle****************************** */
+.video{
+    width: 100%;
+    height: 100%;
+    background: #e8e8e8;
+}
+.container_video {
+  margin-top: 110px;
+  margin-left: 300px;
+  background: #e8e8e8;
+}
+
+.aaa {
+  margin-top: 130px;
+  margin-left: 100px;
+}
+
+.grid_video {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 100px));
+}
+.video_youtube {
+    margin-right: 15px;
+   
+}
+.video_youtube ul{
+    list-style: none;
+}
+
+.grid_video img {
+  width: 100%;
+  transition: 0.4s;
+ 
+}
+.grid_video a{
+    text-decoration: none;
+    color: #333;
+}
+.video_youtube ul:hover {
+  box-shadow: 0 0 10px #333;
+  transform: scale(1.1);
+  transform: translateY(5px);
+  transition: 0.5s;
+  background: #fff;
+}
+
+
